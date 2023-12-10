@@ -44,11 +44,11 @@ Após a finalização da instalação das dependências, inicie o projeto atrav�
 Com isso a aplicação ficará ativa em um servidor local. 
 Você poderá acessá-lo através do navegador utilizando:
 ```
-<http://localhost:3000>
+http://localhost:3000
 ```
 ou:
 ```
-<http://127.0.0.1:3000/>
+http://127.0.0.1:3000/
 ```
 
 Para encerrar, basta, no prompt de comando, utilizar CTRL + 'C' e confirmar com 'S'.
