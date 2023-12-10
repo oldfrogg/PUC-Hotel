@@ -1,71 +1,48 @@
-import { BrowserRouter as Router, Route, Link, useNavigate, useParams } from 'react-router-dom';
-
 import './PagePagamento.css'
+
 import data from './quartos.json'
 
 import Header from './componentes/Header/Header.js'
 import Rodape from './componentes/Rodape/Rodape.js';
 import CardInfoHotel from './componentes/CardInfoHotel/CardInfoHotel';
-
-import { useEffect, useState } from 'react';
 import PaymentForm from './componentes/PaymentForm/PaymentForm.js';
 import Quarto from './componentes/Quarto/Quarto.js';
 import ConfirmacaoReserva from './componentes/ConfirmacaoReserva/ConfirmacaoReserva.js';
 import Botao from './componentes/Botao/Botao.js';
 
+import { useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+
 const PagePagamento = () => {
 
-
+    // Definição dos parâmetros
     const { quarto, diarias, entrada, saida } = useParams();
 
-    const [houveErro, setHouveErro] = useState(false);
-
-    const [mostraItensPrePagamento, setMostraItensPrePagamento] = useState(true);
-
+    // Definição dos estados
     const [pagamentoConcluido, setPagamentoConcluido] = useState(false);
-
-
-    const navigate = useNavigate();
-
     const [nomeHospede, setNomeHospede] = useState('');
     const [cpfHospede, setCpfHospede] = useState('');
     const [emailHospede, setEmailHospede] = useState('');
 
+
+    // Ganchos para atualização das variáveis de estado
     const handleNomeHospedeChange = (e) => {
         setNomeHospede(e.target.value)
     }
-
     const handleCpfHospedeChange = (e) => {
         setCpfHospede(e.target.value)
     }
-
     const handleEmailHospedeChange = (e) => {
         setEmailHospede(e.target.value)
     }
-
-    useEffect(() => { console.log('uso de use effect') }, [nomeHospede])
-
     const aoPagar = (e) => {
         e.preventDefault();
-        //setNomeHospede = e.target.value
-        console.log(nomeHospede)
-        console.log(cpfHospede)
-        console.log(quarto)
-        console.log(entrada)
-        console.log(saida)
-        console.log(diarias)
-        console.log(preco)
         setPagamentoConcluido(true);
-        setMostraItensPrePagamento(false);
     }
 
-    useEffect(() => {
-        if (houveErro == true) {
-            navigate(`/reservas`);
-        }
-    }, [navigate, houveErro])
 
-
+    // Definição do preço, vindos da simulação do back-end
     let preco = 0;
 
     if (quarto == 'Standard') {
@@ -79,9 +56,9 @@ const PagePagamento = () => {
     }
     else {
         alert('Houve um erro! Retorne e tente novamente!');
-        setHouveErro(true);
     }
 
+    
     return (
         <>
             <Header />
