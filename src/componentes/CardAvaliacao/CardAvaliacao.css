@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.card {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 2.2em;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 392px;
+    height: 523px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foto{
+    width: 224px;
+    height: 224px;
+    justify-self: flex-start;
+}
+
+.guestname{
+    margin: 0px 0 10px 0;
+}

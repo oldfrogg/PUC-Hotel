@@ -1,0 +1,53 @@
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    --swiper-navigation-color: #05011F;
+    max-height: 900px;
+    box-sizing: border-box;
+}
+
+swiper-container {
+    max-width: 900px;
+    max-height: 900px;
+    background-color: rgba(201, 219, 230, 0.7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1), 
+    -2px 2px 5px 2px rgba(0, 0, 0, 0.1), 
+    2px -2px 5px 2px rgba(0, 0, 0, 0.1), 
+    -2px -2px 5px 2px  rgba(0, 0, 0, 0.1);
+}
+
+
+button-prev,
+button-next {
+    position: absolute;
+    background: transparent;
+    width: 4px;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+
+swiper-slide {
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.swiper-pagination {
+    background: transparent;
+}

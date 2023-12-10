@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.div-componente-botao {
+    text-align: center;
+}
+
+.bt-componente {
+    height: auto;
+    width: auto;
+    font-family: 'Gideon Roman', serif;
+    font-size: 22px;
+    font-weight: 100;
+    background-color: #05011F;
+    color: white;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.bt-componente:hover {
+    background-color: #090238;
+}
+
+.bt-componente:active {
+    background-color: #0d0255;
+}

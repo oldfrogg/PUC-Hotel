@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.div-selecao-datas{
+    font-family: 'Gideon Roman', serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin: 10vh 0 30px;
+}
+
+.rdrCalendarWrapper{
+    background-color: #D9D9D9;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 10px;
+}
+
+.rdrStartEdge, .rdrInRange, .rdrEndEdge {
+    background-color:#05011F;
+}
+
+
+.rdrDayStartPreview, .rdrDayEndPreview, .rdrDayInPreview, .rdrDayNumber{
+    border-color: #05011F;
+}

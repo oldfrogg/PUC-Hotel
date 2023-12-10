@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+footer{
+    font-family: 'Gideon Roman', serif;
+    font-weight: 100;
+    width: 100%;
+    background-color: #272628;
+    color: white;
+    margin-top: 100px;
+    padding: 25px 0 100px;
+}
+
+footer h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+.logo-rodape{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 50px;
+}
+
+.secoes-rodape{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secao-rodape{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: calc(100vw/4);
+    align-items: center;
+}
+
+.divisoria-rodape{
+    height: 185px;
+    width: 1px;
+}
+
+.div-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.div-contato p{
+    font-size: 20px;
+}
+
+.icone-rodape{
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+h3 a{
+    text-decoration: none;
+    color: white;
+}

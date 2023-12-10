@@ -1,0 +1,7 @@
+{
+"standard": {"items": ["Até duas pessoas","Café da manhã","Ar-condicionado","TV Plasma 42''","Wi-Fi"], "preco": 650.00},
+
+"deluxe": {"items": ["2 camas King Size casal","Área de 50m²","Café da manhã","TV Plasma 51''","Ar Condicionado","Wi-Fi","Secador","Cofre"], "preco": 950.00},
+
+"presidencial": {"items": ["2 quartos com camas King Size casal","Área de 95m²","Café da manhã","Sala de jantar","Varanda gourmet com vista para o mar","Banheira de hidromassagem","2 TVs OLED 65'' 8K","Ar Condicionado","Wi-Fi","Secador","Cofre"], "preco": 1650.00}
+}

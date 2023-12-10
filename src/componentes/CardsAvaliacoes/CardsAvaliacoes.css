@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.whatguestsays-title{
+    text-align: center;
+    margin-top: 5vw;
+    font-family: 'Gideon Roman', serif;
+    font-size: 3em;
+    font-weight: 100;
+
+}
+
+.secao-avaliacoes{
+    display: flex;
+    justify-content: center;
+    gap:5vw;
+}

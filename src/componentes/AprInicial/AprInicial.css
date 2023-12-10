@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.fachada-hotel{
+    width: 100%;
+    min-height: 2100px;
+    background-image: url('../../../public/imagens/FachadaPUCHotel4K.jpeg');
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bloco-reserva{
+    width: 485px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(241, 243, 248, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Glass Antiqua', cursive;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    font-weight: 500;
+    font-size: 42px;
+    margin: 0.83em 0 15px 0;;
+}
+
+.bt-go-to-reservar{
+    text-transform: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #9D7D09;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.bt-go-to-reservar:hover{
+    background-color: #b99513;
+}
+
+.bt-go-to-reservar:active{
+    background-color: #cfa91e;
+}

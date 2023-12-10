@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.titulo-secao-seleciona-quarto{
+margin: 10vh 0 2vh;
+}
+
+.dados-data-escolhida{
+    margin-left: 30px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.lista-de-quartos{
+    font-family: 'Gideon Roman', serif;
+    font-size: 26px;
+    font-weight: 100;
+    display: block;
+    margin: 0 10vw;
+}
+
+.linha-divisoria{
+    width: 80vw;
+    height: 1px;
+    background-color: black;
+    margin: 40px auto 15px;
+}
+
+.componente-quarto-e-bt{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+
+.bt-reservar{
+    height: 50px;
+    width: 170px;
+    border-radius: 100px;
+    vertical-align:top;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.quarto-selecionado{
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 100px 30px 100px;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+    box-shadow: 2px 2px 8px 0.2px grey;
+}
+
+.quarto-selecionado h2{
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.dados-reserva{
+    display: block;
+    width: 500px;
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 2px 2px 8px 0.2px grey;
+}
+
+.dados-reserva h2 {
+    margin: 0 0 20px;
+}
+
+.dados-reserva h3{
+    font-family: 'Gideon Roman', serif;
+    text-align: left;
+    font-size: 26px;
+    padding: 5px;
+}
+
+.formulario-pagamento{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 26px;
+}
+
+input {
+    margin: 5px 0 20px;
+    display: block;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0.1px grey;
+    height: 32px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+}
+
+.bt-pagar{
+    margin: 20px 0 20px;
+    padding: 15px;
+}

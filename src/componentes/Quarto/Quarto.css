@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+.suite{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8vw;
+    justify-self: start;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.suite ul {
+    justify-self: left;
+}
+
+.div-quarto{
+    padding: 3vh 0;
+    font-family: 'Gideon Roman', serif;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.div-quarto ul{
+    justify-self: left;
+    position: relative;
+    left: 0;
+}
+
+.div-quarto img{
+    width: 500px;
+    height: 500px;
+}
+
+.nome-quarto{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.suite ul{
+    list-style: inside;
+}
+
+.foto-quarto{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px grey;
+}

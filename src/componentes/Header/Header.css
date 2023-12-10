@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glass+Antiqua&family=Inter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+
+nav{
+    width: 100%;
+    background-color: #05011F;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw 0 0;
+    align-items: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 18px;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.divhome{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+}
+
+.linksnav{
+    display: flex;
+    gap: 3vw;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 1.5em;
+    font-weight: 100;
+    border: none;
+    background-color: transparent;
+    color: antiquewhite;
+    font-family: 'Gideon Roman', serif;
+    cursor: pointer;
+}
+
+button{
+
+}
+
+.btReservarNav{
+    color: #9D7D09;
+    border: 2px solid #9D7D09;
+    border-radius: 10px;
+    padding: 12px 8px;
+    cursor: pointer;
+}
