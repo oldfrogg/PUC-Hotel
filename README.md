@@ -2,17 +2,17 @@
 
 
 ## Sobre
-Este repositório é um projeto acadêmico de desenvolvimento Front End.
-Nele temos um site de navegação para que clientes do fictício PUC Hotel possam fazer suas reservas online.
-O Front End segue o modelo criado no Figma, pelo mesmo autor deste repositório.
-Link do Figma: <https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1>
-Protótipo do Figma: <https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2>
+* Este repositório é um projeto acadêmico de desenvolvimento Front End.
+* Nele temos um site de navegação para que clientes do fictício PUC Hotel possam fazer suas reservas online.
+* O Front End segue o modelo criado no Figma, pelo mesmo autor deste repositório.
+* Link do Figma: <https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1>
+* Protótipo do Figma: <https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2>
 
 ## Objetivos
-*Desenvolver uma interface agradável e intuitiva para o usuário;
-*Familiarizar-se com o React e o Node.js;
-*Familiarizar-se com a criação e reutilização de componentes do React;
-*Trabalhar com rotas, props, hooks, simular requisições a um servidor simples através de um .json;
+* Desenvolver uma interface agradável e intuitiva para o usuário;
+* Familiarizar-se com o React e o Node.js;
+* Familiarizar-se com a criação e reutilização de componentes do React;
+* Trabalhar com rotas, props, hooks, simular requisições a um servidor simples através de um .json;
 
 ## Rotas
 * / - Home Page: Apresentação do Hotel e botão para a rota de simular a reserva.
