@@ -5,8 +5,14 @@
 * Este repositório é um projeto acadêmico de desenvolvimento Front End.
 * Nele temos um site de navegação para que clientes do fictício PUC Hotel possam fazer suas reservas online.
 * O Front End segue o modelo criado no Figma, pelo mesmo autor deste repositório.
-* Link do Figma: <https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1>
-* Protótipo do Figma: <https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2>
+* Link do Figma: 
+```
+<https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1>
+```
+* Protótipo do Figma:
+```
+<https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2>
+```
 
 ## Objetivos
 * Desenvolver uma interface agradável e intuitiva para o usuário;
@@ -35,9 +41,14 @@ Após a finalização da instalação das dependências, inicie o projeto atrav�
 > npm start
 ```
 
-Com isso a aplicação ficará ativa em um servidor local. Você poderá acessá-lo através do navegador utilizando:
-    <http://localhost:3000>
+Com isso a aplicação ficará ativa em um servidor local. 
+Você poderá acessá-lo através do navegador utilizando:
+```
+<http://localhost:3000>
+```
 ou:
-    <http://127.0.0.1:3000/>
+```
+<http://127.0.0.1:3000/>
+```
 
 Para encerrar, basta, no prompt de comando, utilizar CTRL + 'C' e confirmar com 'S'.
