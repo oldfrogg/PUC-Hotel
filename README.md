@@ -8,11 +8,11 @@
   
 * Protótipo de alta fidelidade no Figma: 
 ```
-https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1
+https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=HMOLD4r2hD0GAola-1
 ```
 * Visualização do protótipo do Figma:
 ```
-https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2
+https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=1-2&t=HMOLD4r2hD0GAola-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2
 ```
 
 ## Objetivos
