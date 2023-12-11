@@ -5,11 +5,12 @@
 * Este repositório é um projeto acadêmico de desenvolvimento Front End.
 * Nele temos um site de navegação para que clientes do fictício PUC Hotel possam fazer suas reservas online.
 * O Front End segue o modelo criado no Figma, pelo mesmo autor deste repositório.
-* Link do Figma: 
+  
+* Protótipo de alta fidelidade no Figma: 
 ```
 https://www.figma.com/file/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0%3A1&mode=design&t=Y2hwuyM4afLZhCO5-1
 ```
-* Protótipo do Figma:
+* Visualização do protótipo do Figma:
 ```
 https://www.figma.com/proto/HR5Kgj15UXJgEN9A53SaXn/PUC-Hotel?type=design&node-id=0-1&t=Y2hwuyM4afLZhCO5-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2
 ```
